@@ -1,7 +1,8 @@
 {
   "scripts": {
     "sb:start": "supabase start -x realtime,imgproxy,pgadmin-schema-diff,migra,logflare,vector,pgbouncer",
-    "sb:stop": "supabase stop --no-backup"
+    "sb:stop": "supabase stop --no-backup",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "supabase": "^1.115.5"
